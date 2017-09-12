@@ -44,7 +44,7 @@ public class ExampleTest {
     @Test
     public void test() throws Exception {
         // And now use this to visit Google
-        driver.get("http://www.google.com");
+        driver.get("http://www.fooooooo.google.com"); // this should break
         // Alternatively the same thing can be done like this
         // driver.navigate().to("http://www.google.com");
 
